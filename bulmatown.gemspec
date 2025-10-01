@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.7.0"
 
-  spec.add_dependency "bridgetown", ">= 1.0.0.alpha10", "< 2.0"
+  spec.add_dependency "bridgetown", ">= 1.0.0.alpha10", "~> 2.0"
   spec.add_dependency "bridgetown-quick-search", "~> 1.1"
 
   spec.add_development_dependency "bundler"
